@@ -1,31 +1,31 @@
 # Data-Science-Tools-Project
-Bayut Real Estate Price Prediction Project
+# Bayut Real Estate Price Prediction Project
 
-Project Overview
+# Project Overview
 
 This project involves scraping real estate data from the Bayut website, cleaning and preprocessing the data, and building a predictive model to estimate house prices. The cleaned data is stored in an SQL Server database, and insightful analysis has been performed to better understand the housing market trends.
 
-Features
+# Features
 
-Data Scraping: Extracted data from the Bayut website, including:
+1 - Data Scraping: Extracted data from the Bayut website, including:
 
-Property names
+    1- Property names
 
-Locations
+    2- Locations
 
-Features (e.g., number of bedrooms, bathrooms, area size)
+    3- Features (e.g., number of bedrooms, bathrooms, area size)
 
-Prices
+    4- Prices
 
-Data Cleaning: Processed the raw data to handle missing values, remove duplicates, and standardize formats.
+2 - Data Cleaning: Processed the raw data to handle missing values, remove duplicates, and standardize formats.
 
-Predictive Modeling: Built a machine learning model to predict house prices based on features such as location, size, and number of rooms.
+3 - Predictive Modeling: Built a machine learning model to predict house prices based on features such as location, size, and number of rooms.
 
-Database Integration: Stored the cleaned data in an SQL Server database for efficient querying and management.
+4 - Database Integration: Stored the cleaned data in an SQL Server database for efficient querying and management.
 
-Data Analysis: Performed exploratory data analysis to uncover trends and patterns in the housing market.
+5 - Data Analysis: Performed exploratory data analysis to uncover trends and patterns in the housing market.
 
-Tech Stack
+# Tech Stack
 
 Programming Language: Python
 
@@ -43,7 +43,7 @@ Database: SQL Server
 
 Other Tools: Jupyter Notebook, SQL Server Management Studio (SSMS)
 
-Steps
+# Steps
 
 1. Web Scraping
 
@@ -77,64 +77,3 @@ Visualized key trends such as average house prices by location and price distrib
 
 Provided insights into the factors affecting house prices.
 
-Repository Structure
-
-|-- data/
-|   |-- raw_data.csv         # Raw scraped data
-|   |-- cleaned_data.csv     # Cleaned data ready for modeling
-|-- notebooks/
-|   |-- scraping.ipynb       # Web scraping implementation
-|   |-- cleaning.ipynb       # Data cleaning process
-|   |-- modeling.ipynb       # Predictive modeling
-|-- sql_scripts/
-|   |-- schema.sql           # SQL script for database schema
-|   |-- insert_data.sql      # SQL script to insert data into SQL Server
-|-- analysis/
-|   |-- visualizations.ipynb # Exploratory data analysis and insights
-|-- README.md                # Project description
-
-Installation and Usage
-
-Prerequisites
-
-Python 3.x installed on your system.
-
-Required Python libraries: Install using:
-
-pip install -r requirements.txt
-
-SQL Server setup to store and manage the data.
-
-Steps to Run
-
-Scrape the data:
-
-Run the scraping.ipynb notebook to collect data from Bayut's website.
-
-Clean the data:
-
-Execute the cleaning.ipynb notebook to preprocess the data.
-
-Store the data:
-
-Use schema.sql to create the database schema in SQL Server.
-
-Run insert_data.sql to insert the cleaned data into the database.
-
-Build and evaluate the model:
-
-Use modeling.ipynb to train and evaluate the predictive model.
-
-Analyze the data:
-
-Execute visualizations.ipynb to generate charts and insights.
-
-Results
-
-Predictive Model: Achieved a high accuracy in predicting house prices.
-
-Insights:
-
-Identified the most influential factors affecting house prices.
-
-Discovered price variations by location and property features.
